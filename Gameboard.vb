@@ -45,10 +45,14 @@
         End If
         
         Do
-            vaderMove1 = CInt(Math.Floor((5 - 0 + 1) * Rnd())) + 0
-            vaderMove2 = CInt(Math.Floor((5 - 0 + 1) * Rnd())) + 0
+            vaderMove1 = CInt(Math.Floor((5 - 0 + 1) * Rnd())) + 0   'assigns a random integer between and including 0 and 5
+            vaderMove2 = CInt(Math.Floor((5 - 0 + 1) * Rnd())) + 0   'assigns a random integer between and including 0 and 5
             
-            If board
+            If board(vaderMove1, vaderMove2) = 0 Then
+                board(vaderMove1, VaderMove2) = vaderTurn
+                flagFound = True
+            End If
+        Loop While flagFound = False
         
     End Sub
     

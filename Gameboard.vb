@@ -52,13 +52,15 @@
                 board(vaderMove1, VaderMove2) = vaderTurn
                 flagFound = True
             End If
+            
         Loop While flagFound = False
         
     End Sub
     
     Public Sub medVader()
-        'If vaderflag is medium then run hard algorithm
+        
     End Sub
+    
     Public Sub hardVader()
         'If vaderflag is hard then run hard algorithm
     End Sub

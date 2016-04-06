@@ -1,7 +1,7 @@
 ﻿Public Class Gameboard
     Private vaderFlag As Integer
     Public stone(2) As Drawing.Color
-    Private board As Array
+    Private Dim board(6, 6) As Integer
     Public player1 As player = New player()
     Public player2 As player = New player()
     Private score1 As Integer
@@ -22,10 +22,15 @@
     End Sub
     Public Sub setPlayer(ByVal Nm1 As String, ByVal Nm2 As String)
         player1.name = Nm1
+        player1.turnNum = 1
         player2.name = Nm2
+        player2.turnNum = 2
     End Sub
     Public Sub easyVader()
-        'If vaderflag is easy then run easy algorithm
+        Dim vaderTurn As Integer
+        Dim playerTurn As Integer
+        
+        If player1.name = "Vader" Then
     End Sub
     Public Sub medVader()
         'If vaderflag is medium then run hard algorithm

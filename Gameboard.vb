@@ -20,18 +20,38 @@
     Public Sub setDiff(ByVal Vader As Integer)
         vaderFlag = Vader
     End Sub
+    
     Public Sub setPlayer(ByVal Nm1 As String, ByVal Nm2 As String)
         player1.name = Nm1
         player1.turnNum = 1
         player2.name = Nm2
         player2.turnNum = 2
     End Sub
+    
     Public Sub easyVader()
-        Dim vaderTurn As Integer
-        Dim playerTurn As Integer
+    
+        Dim vaderTurn As Integer                        'variable to hold the numerical value for the AI's turn
+        Dim playerTurn As Integer                       'variable to hold the numerical value for the player's turn
+        Dim flagFound As Boolean = False                'variable to tell if the AI has selected a move
+        Dim vaderMove1 As Integer                       'variable to hold AI selection of the first dimension of the array
+        Dim vaderMove2 As Integer                       'variable to hold AI selection of the second dimension of the array
         
-        If player1.name = "Vader" Then
+        If player1.name = "Vader" Then                  'if statement to set the vaderTurn and playerTurn variables
+            vaderTurn = 1                               'to their corresponding values to use in Vader's move selection
+            playerTurn = 2
+        Else
+            vaderTurn = 2
+            playerTurn = 1
+        End If
+        
+        Do
+            vaderMove1 = CInt(Math.Floor((5 - 0 + 1) * Rnd())) + 0
+            vaderMove2 = CInt(Math.Floor((5 - 0 + 1) * Rnd())) + 0
+            
+            If board
+        
     End Sub
+    
     Public Sub medVader()
         'If vaderflag is medium then run hard algorithm
     End Sub

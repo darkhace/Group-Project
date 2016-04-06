@@ -44,7 +44,9 @@
             playerTurn = 1
         End If
         
-        Do
+        Do                                                           'Do While loop to select a random position and check it 
+                                                                     'for vader's selection. If position is taken the loop iterates again
+                                                                     'and checks a new position
             vaderMove1 = CInt(Math.Floor((5 - 0 + 1) * Rnd())) + 0   'assigns a random integer between and including 0 and 5
             vaderMove2 = CInt(Math.Floor((5 - 0 + 1) * Rnd())) + 0   'assigns a random integer between and including 0 and 5
             

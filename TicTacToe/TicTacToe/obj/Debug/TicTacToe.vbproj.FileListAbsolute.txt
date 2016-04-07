@@ -18,3 +18,18 @@ C:\Users\Sean\Documents\Visual Studio 2013\Projects\TicTacToe\TicTacToe\bin\Debu
 C:\Users\Sean\Documents\Visual Studio 2013\Projects\TicTacToe\TicTacToe\obj\Debug\TicTacToe.exe
 C:\Users\Sean\Documents\Visual Studio 2013\Projects\TicTacToe\TicTacToe\obj\Debug\TicTacToe.xml
 C:\Users\Sean\Documents\Visual Studio 2013\Projects\TicTacToe\TicTacToe\obj\Debug\TicTacToe.pdb
+C:\Users\valentin\Documents\GitHub\Group-Project\TicTacToe\TicTacToe\bin\Debug\TicTacToe.exe.config
+C:\Users\valentin\Documents\GitHub\Group-Project\TicTacToe\TicTacToe\obj\Debug\TicTacToe.exe
+C:\Users\valentin\Documents\GitHub\Group-Project\TicTacToe\TicTacToe\obj\Debug\TicTacToe.xml
+C:\Users\valentin\Documents\GitHub\Group-Project\TicTacToe\TicTacToe\obj\Debug\TicTacToe.pdb
+C:\Users\valentin\Documents\GitHub\Group-Project\TicTacToe\TicTacToe\bin\Debug\TicTacToe.exe
+C:\Users\valentin\Documents\GitHub\Group-Project\TicTacToe\TicTacToe\bin\Debug\TicTacToe.pdb
+C:\Users\valentin\Documents\GitHub\Group-Project\TicTacToe\TicTacToe\bin\Debug\TicTacToe.xml
+C:\Users\valentin\Documents\GitHub\Group-Project\TicTacToe\TicTacToe\bin\Debug\dje-NE\TicTacToe.resources.dll
+C:\Users\valentin\Documents\GitHub\Group-Project\TicTacToe\TicTacToe\obj\Debug\TicTacToe.board.resources
+C:\Users\valentin\Documents\GitHub\Group-Project\TicTacToe\TicTacToe\obj\Debug\TicTacToe.gameMenu.resources
+C:\Users\valentin\Documents\GitHub\Group-Project\TicTacToe\TicTacToe\obj\Debug\TicTacToe.Resources.resources
+C:\Users\valentin\Documents\GitHub\Group-Project\TicTacToe\TicTacToe\obj\Debug\TicTacToe.setupMenu.resources
+C:\Users\valentin\Documents\GitHub\Group-Project\TicTacToe\TicTacToe\obj\Debug\TicTacToe.board.dje-NE.resources
+C:\Users\valentin\Documents\GitHub\Group-Project\TicTacToe\TicTacToe\obj\Debug\TicTacToe.vbproj.GenerateResource.Cache
+C:\Users\valentin\Documents\GitHub\Group-Project\TicTacToe\TicTacToe\obj\Debug\dje-NE\TicTacToe.resources.dll

@@ -3,6 +3,7 @@
 Public Class player
     Public name As String
     Private guest As String = "guest"
+    Public turnNum As Integer
     Public Sub New()
         name = ""
     End Sub

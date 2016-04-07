@@ -1,7 +1,20 @@
-﻿Public Class setupMenu
+﻿'Setup Menu
+'attributes 
+'   count:int
+'   colorStone:Color 
+'   
+'method
+'   
+'   
+'   
+'   
+Public Class setupMenu
     Dim count As Integer = 2
     Dim cStone(2) As Color
 
+    'Enter button 
+    'If first radio button == checked then first name == player1 and second name == player2
+    'If 
     Private Sub enterButton_Click(sender As Object, e As EventArgs) Handles enterButton.Click
         If player1RadioButton.Checked Then
             board.gameboard.setPlayer(player1RadioButton.Text, player2RadioButton.Text)
@@ -73,5 +86,9 @@
     Private Sub setupMenu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         player1RadioButton.Text = board.gameboard.player1.name
         player2RadioButton.Text = board.gameboard.player2.name
+    End Sub
+
+    Private Sub GroupBox2_Enter(sender As Object, e As EventArgs) Handles GroupBox2.Enter
+
     End Sub
 End Class

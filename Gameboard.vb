@@ -32,7 +32,7 @@
     
         Dim vaderTurn As Integer                        'variable to hold the numerical value for the AI's turn
         Dim playerTurn As Integer                       'variable to hold the numerical value for the player's turn
-        Dim flagFound As Boolean = False                'variable to tell if the AI has selected a move
+        Dim flagFound As Boolean = False                'variable used to control the while loop
         Dim vaderMove1 As Integer                       'variable to hold AI selection of the first dimension of the array
         Dim vaderMove2 As Integer                       'variable to hold AI selection of the second dimension of the array
         
@@ -60,7 +60,24 @@
     End Sub
     
     Public Sub medVader()
-        
+
+        Dim vaderTurn As Integer                        'variable to hold the numerical value for the AI's turn
+        Dim playerTurn As Integer                       'variable to hold the numerical value for the player's turn
+        Dim flagFound As Boolean = False                'variable used to control the while loop
+        Dim vaderMove1 As Integer                       'variable to hold AI selection of the first dimension of the array
+        Dim vaderMove2 As Integer                       'variable to hold AI selection of the second dimension of the array
+        Dim loopFlag As Boolean = False                 'variable to tell if the AI has selected a move
+
+        If player1.name = "Vader" Then                  'if statement to set the vaderTurn and playerTurn variables
+            vaderTurn = 1                               'to their corresponding values to use in Vader's move selection
+            playerTurn = 2
+        Else
+            vaderTurn = 2
+            playerTurn = 1
+        End If
+
+
+
     End Sub
     
     Public Sub hardVader()

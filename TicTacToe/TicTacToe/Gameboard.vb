@@ -1,6 +1,7 @@
 ﻿Public Class Gameboard
     Private vaderFlag As Integer
-    Public stone(2) As Drawing.Color
+    '*Public stone(2) As Drawing.Color
+    Private stone(2) As String
     Private board(6, 6) As Integer
     Public player1 As player = New player()
     Public player2 As player = New player()
@@ -176,10 +177,10 @@
     Public Sub setScores()
         'Open the file and add the scores
     End Sub
-    Public Sub setStone(ByVal color As Color, ByVal color2 As Color)
+    Public Sub setStone(ByVal color As String, ByVal color2 As String)
         'Place the stone on the board
-        stone(0) = Drawing.Color.Blue
-        stone(1) = color2
+        board.player1stone.FillColor = color
+        board.player2stone.FillColor = color2
     End Sub
     Public Sub exitButton()
         'Exit the board 

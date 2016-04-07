@@ -24,21 +24,21 @@ Partial Class setupMenu
     Private Sub InitializeComponent()
         Me.player1RadioButton = New System.Windows.Forms.RadioButton()
         Me.player2RadioButton = New System.Windows.Forms.RadioButton()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.chooseFirstplayerGroupBox = New System.Windows.Forms.GroupBox()
+        Me.chooseColorGroupBox = New System.Windows.Forms.GroupBox()
         Me.redRadioButton = New System.Windows.Forms.RadioButton()
         Me.greenRadioButton = New System.Windows.Forms.RadioButton()
         Me.yellowRadioButton = New System.Windows.Forms.RadioButton()
         Me.blueRadioButton = New System.Windows.Forms.RadioButton()
-        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.chooseDifficultyGroupBox = New System.Windows.Forms.GroupBox()
         Me.hardRadioButton = New System.Windows.Forms.RadioButton()
         Me.medRadioButton = New System.Windows.Forms.RadioButton()
         Me.easyRadioButton = New System.Windows.Forms.RadioButton()
         Me.enterButton = New System.Windows.Forms.Button()
         Me.backButton = New System.Windows.Forms.Button()
-        Me.GroupBox1.SuspendLayout()
-        Me.GroupBox2.SuspendLayout()
-        Me.GroupBox3.SuspendLayout()
+        Me.chooseFirstplayerGroupBox.SuspendLayout()
+        Me.chooseColorGroupBox.SuspendLayout()
+        Me.chooseDifficultyGroupBox.SuspendLayout()
         Me.SuspendLayout()
         '
         'player1RadioButton
@@ -63,31 +63,31 @@ Partial Class setupMenu
         Me.player2RadioButton.Text = "player 2"
         Me.player2RadioButton.UseVisualStyleBackColor = True
         '
-        'GroupBox1
+        'chooseFirstplayerGroupBox
         '
-        Me.GroupBox1.Controls.Add(Me.player2RadioButton)
-        Me.GroupBox1.Controls.Add(Me.player1RadioButton)
-        Me.GroupBox1.Location = New System.Drawing.Point(35, 32)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(202, 135)
-        Me.GroupBox1.TabIndex = 7
-        Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Who will go first?"
+        Me.chooseFirstplayerGroupBox.Controls.Add(Me.player2RadioButton)
+        Me.chooseFirstplayerGroupBox.Controls.Add(Me.player1RadioButton)
+        Me.chooseFirstplayerGroupBox.Location = New System.Drawing.Point(35, 32)
+        Me.chooseFirstplayerGroupBox.Name = "chooseFirstplayerGroupBox"
+        Me.chooseFirstplayerGroupBox.Size = New System.Drawing.Size(202, 135)
+        Me.chooseFirstplayerGroupBox.TabIndex = 7
+        Me.chooseFirstplayerGroupBox.TabStop = False
+        Me.chooseFirstplayerGroupBox.Text = "Who will go first?"
         '
-        'GroupBox2
+        'chooseColorGroupBox
         '
-        Me.GroupBox2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
-        Me.GroupBox2.Controls.Add(Me.redRadioButton)
-        Me.GroupBox2.Controls.Add(Me.greenRadioButton)
-        Me.GroupBox2.Controls.Add(Me.yellowRadioButton)
-        Me.GroupBox2.Controls.Add(Me.blueRadioButton)
-        Me.GroupBox2.Location = New System.Drawing.Point(23, 32)
-        Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(223, 162)
-        Me.GroupBox2.TabIndex = 8
-        Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "Choose your color"
-        Me.GroupBox2.Visible = False
+        Me.chooseColorGroupBox.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
+        Me.chooseColorGroupBox.Controls.Add(Me.redRadioButton)
+        Me.chooseColorGroupBox.Controls.Add(Me.greenRadioButton)
+        Me.chooseColorGroupBox.Controls.Add(Me.yellowRadioButton)
+        Me.chooseColorGroupBox.Controls.Add(Me.blueRadioButton)
+        Me.chooseColorGroupBox.Location = New System.Drawing.Point(35, 32)
+        Me.chooseColorGroupBox.Name = "chooseColorGroupBox"
+        Me.chooseColorGroupBox.Size = New System.Drawing.Size(223, 162)
+        Me.chooseColorGroupBox.TabIndex = 8
+        Me.chooseColorGroupBox.TabStop = False
+        Me.chooseColorGroupBox.Text = "Choose your color"
+        Me.chooseColorGroupBox.Visible = False
         '
         'redRadioButton
         '
@@ -133,18 +133,18 @@ Partial Class setupMenu
         Me.blueRadioButton.Text = "Blue"
         Me.blueRadioButton.UseVisualStyleBackColor = True
         '
-        'GroupBox3
+        'chooseDifficultyGroupBox
         '
-        Me.GroupBox3.Controls.Add(Me.hardRadioButton)
-        Me.GroupBox3.Controls.Add(Me.medRadioButton)
-        Me.GroupBox3.Controls.Add(Me.easyRadioButton)
-        Me.GroupBox3.Location = New System.Drawing.Point(35, 32)
-        Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(211, 126)
-        Me.GroupBox3.TabIndex = 9
-        Me.GroupBox3.TabStop = False
-        Me.GroupBox3.Text = "Difficulty"
-        Me.GroupBox3.Visible = False
+        Me.chooseDifficultyGroupBox.Controls.Add(Me.hardRadioButton)
+        Me.chooseDifficultyGroupBox.Controls.Add(Me.medRadioButton)
+        Me.chooseDifficultyGroupBox.Controls.Add(Me.easyRadioButton)
+        Me.chooseDifficultyGroupBox.Location = New System.Drawing.Point(35, 32)
+        Me.chooseDifficultyGroupBox.Name = "chooseDifficultyGroupBox"
+        Me.chooseDifficultyGroupBox.Size = New System.Drawing.Size(211, 126)
+        Me.chooseDifficultyGroupBox.TabIndex = 9
+        Me.chooseDifficultyGroupBox.TabStop = False
+        Me.chooseDifficultyGroupBox.Text = "Difficulty"
+        Me.chooseDifficultyGroupBox.Visible = False
         '
         'hardRadioButton
         '
@@ -204,36 +204,36 @@ Partial Class setupMenu
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSize = True
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
-        Me.ClientSize = New System.Drawing.Size(435, 273)
+        Me.ClientSize = New System.Drawing.Size(433, 252)
         Me.Controls.Add(Me.backButton)
         Me.Controls.Add(Me.enterButton)
-        Me.Controls.Add(Me.GroupBox3)
-        Me.Controls.Add(Me.GroupBox2)
-        Me.Controls.Add(Me.GroupBox1)
+        Me.Controls.Add(Me.chooseDifficultyGroupBox)
+        Me.Controls.Add(Me.chooseColorGroupBox)
+        Me.Controls.Add(Me.chooseFirstplayerGroupBox)
         Me.MaximizeBox = False
         Me.Name = "setupMenu"
         Me.Text = "setupMenu"
-        Me.GroupBox1.ResumeLayout(False)
-        Me.GroupBox1.PerformLayout()
-        Me.GroupBox2.ResumeLayout(False)
-        Me.GroupBox2.PerformLayout()
-        Me.GroupBox3.ResumeLayout(False)
-        Me.GroupBox3.PerformLayout()
+        Me.chooseFirstplayerGroupBox.ResumeLayout(False)
+        Me.chooseFirstplayerGroupBox.PerformLayout()
+        Me.chooseColorGroupBox.ResumeLayout(False)
+        Me.chooseColorGroupBox.PerformLayout()
+        Me.chooseDifficultyGroupBox.ResumeLayout(False)
+        Me.chooseDifficultyGroupBox.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
     Friend WithEvents player1RadioButton As System.Windows.Forms.RadioButton
     Friend WithEvents player2RadioButton As System.Windows.Forms.RadioButton
-    Friend WithEvents GroupBox2 As System.Windows.Forms.GroupBox
+    Friend WithEvents chooseColorGroupBox As System.Windows.Forms.GroupBox
     Friend WithEvents redRadioButton As System.Windows.Forms.RadioButton
     Friend WithEvents greenRadioButton As System.Windows.Forms.RadioButton
     Friend WithEvents yellowRadioButton As System.Windows.Forms.RadioButton
     Friend WithEvents blueRadioButton As System.Windows.Forms.RadioButton
-    Friend WithEvents GroupBox3 As System.Windows.Forms.GroupBox
+    Friend WithEvents chooseDifficultyGroupBox As System.Windows.Forms.GroupBox
     Friend WithEvents hardRadioButton As System.Windows.Forms.RadioButton
     Friend WithEvents medRadioButton As System.Windows.Forms.RadioButton
     Friend WithEvents easyRadioButton As System.Windows.Forms.RadioButton
     Friend WithEvents enterButton As System.Windows.Forms.Button
     Friend WithEvents backButton As System.Windows.Forms.Button
-    Private WithEvents GroupBox1 As System.Windows.Forms.GroupBox
+    Private WithEvents chooseFirstplayerGroupBox As System.Windows.Forms.GroupBox
 End Class

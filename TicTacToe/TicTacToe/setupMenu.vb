@@ -21,7 +21,8 @@
 
 Public Class setupMenu
     Dim count As Integer = 2                'Holds the number of colors that can be choosen
-    Dim cStone(2) As Drawing.Color
+    '*Dim cStone(2) As Drawing.Color         Changed cStone array data type to string 
+    Dim cStone(2) As String
 
     'Loads the player names to the radio buttons 
     Private Sub setupMenu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -64,15 +65,15 @@ Public Class setupMenu
 
         End If
 
-        'If Vader is in player2 radio button then display the difficulty groupbox 
-        If player2RadioButton.Text = "Vader" Then
+        'If Vader is in any radio button then display the difficulty groupbox 
+        If player2RadioButton.Text = "Vader" Or player1RadioButton.Text = "Vader" Then
 
             chooseFirstplayerGroupBox.Visible = False
             chooseDifficultyGroupBox.Visible = True
 
         Else
 
-            chooseColorGroupbox.Visible = True
+            chooseColorGroupBox.Visible = True
             chooseFirstplayerGroupBox.Visible = False
 
         End If
@@ -101,7 +102,8 @@ Public Class setupMenu
 
                 count -= 1                  'Decrease the number of colors to be choosen by 1 
 
-                cStone(count) = Color.Blue
+                '*cStone(count) = Color.Blue
+                cStone(count) = "Blue"
 
             ElseIf greenRadioButton.Checked Then
 
@@ -111,7 +113,8 @@ Public Class setupMenu
 
                 count -= 1                  'Decrease the number of colors to be choosen by 1 
 
-                cStone(count) = Color.Green
+                '*cStone(count) = Color.Green
+                cStone(count) = "Green"
 
             ElseIf yellowRadioButton.Checked Then
 
@@ -121,7 +124,8 @@ Public Class setupMenu
 
                 count -= 1                  'Decrease the number of colors to be choosen by 1 
 
-                cStone(count) = Color.Yellow
+                '*cStone(count) = Color.Yellow
+                cStone(count) = "Yellow"
 
             ElseIf redRadioButton.Checked Then
 
@@ -131,8 +135,8 @@ Public Class setupMenu
 
                 count -= 1                  'Decrease the number of colors to be choosen by 1 
 
-                cStone(count) = Color.Red
-
+                '*cStone(count) = Color.Red
+                cStone(count) = "Red"
             End If
 
         End If
@@ -146,7 +150,7 @@ Public Class setupMenu
 
             If player2RadioButton.Text = "Vader" Then
 
-                board.gameboard.setStone(cStone(1), Drawing.Color.Red)
+                board.gameboard.setStone(cStone(1), "VaderBlack")
             Else
 
                 board.gameboard.setStone(cStone(1), cStone(0))

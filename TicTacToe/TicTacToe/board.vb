@@ -7,7 +7,7 @@
     End Sub
 
     Private Sub board_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        player1stone.FillColor = gameboard.stone(0)
-        player2stone.FillColor = gameboard.stone(1)
+        'player1stone.FillColor = gameboard.stone(0)
+        'player2stone.FillColor = gameboard.stone(1)
     End Sub
 End Class

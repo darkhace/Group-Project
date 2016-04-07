@@ -76,7 +76,8 @@
         End If
 
         For i As Integer = 0 To 5
-            
+            If i = 
+            End Select
         Next
 
     End Sub

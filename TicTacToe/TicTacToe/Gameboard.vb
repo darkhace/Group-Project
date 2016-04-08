@@ -77,38 +77,67 @@
         End If
 
         For i As Integer = 0 To 5                                                               'For loop to step through the rows
-            If i = 0 Or i = 2 Or i = 3 Then                                                     'Only scan the first, third, and fourth rows
+            If i = 0 Or i = 3 Then                                                     'Only scan the first, third, and fourth rows
                 For j As Integer = 0 To 5                                                       'Step'For loop to step through each column
                     If board(i, j) = playerTurn Then
+
                         If board(i, j + 1) = playerTurn And board(i, j + 2) = 0 Then            'Check to the right
                             board(i, j + 2) = vaderTurn
                             loopFlag = True
                             Exit For
                         End If
+
                         If board(i + 1, j + 1) = playerTurn And board(i + 2, j + 2) = 0 Then    'Check to the bottom right
                             board(i + 2, j + 2) = vaderTurn
                             loopFlag = True
                             Exit For
                         End If
+
                         If board(i + 1, j - 1) = playerTurn And board(i + 2, j - 2) = 0 Then    'Check to the bottom left
                             board(i + 2, j - 2) = vaderTurn
                             loopFlag = True
                             Exit For
                         End If
+
                         If board(i + 1, j) = playerTurn And board(i + 2, j) = 0 Then            'Check below
                             board(i + 2, j) = vaderTurn
                             loopFlag = True
                             Exit For
+
                         End If
                     End If
                 Next
             End If
+
             If loopFlag Then                                    'To exit the second loop
                 Exit For
             End If
+
         Next
 
-        Do                                                           'Do While loop to select a random position and check it for vader's selection. If position is taken the loop iterates again and checks a new position
+        If loopFlag = False Then                                    'Loop to test for horizontle scoring on rows 1, 2, 4, and 5
+            'Only runs if a suitable position isnt found above
+            For x As Integer = 0 To 5
+                If x = 1 Or x = 2 Or x = 4 Or x = 5 Then
+                    For y As Integer = 0 To 5
+                        If board(x, y) = playerTurn Then
+                            If board(x, y + 1) = playTurn And board(x, y + 2) = 0 Then
+                                board(x, y + 2) = vaderTurn
+                                loopFlag = True
+                                Exit For
+                            End If
+                        End If
+                    Next
+                End If
+
+                If loopFlag Then
+                    Exit For
+                End If
+
+            Next
+        End If
+
+        Do While flagFound = False                                   'Do While loop to select a random position and check it for vader's selection. If position is taken the loop iterates again and checks a new position
 
             vaderMove1 = CInt(Math.Floor((5 - 0 + 1) * Rnd())) + 0   'assigns a random integer between and including 0 and 5
             vaderMove2 = CInt(Math.Floor((5 - 0 + 1) * Rnd())) + 0   'assigns a random integer between and including 0 and 5
@@ -118,7 +147,7 @@
                 flagFound = True
             End If
 
-        Loop While flagFound = False
+        Loop
 
     End Sub
 

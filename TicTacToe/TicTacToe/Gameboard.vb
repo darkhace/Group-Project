@@ -116,7 +116,7 @@
         Next
 
         If loopFlag = False Then                                    'Loop to test for horizontle scoring on rows 1, 2, 4, and 5
-            'Only runs if a suitable position isnt found above
+                                                                    'Only runs if a suitable position isnt found above
             For x As Integer = 0 To 5
                 If x = 1 Or x = 2 Or x = 4 Or x = 5 Then
                     For y As Integer = 0 To 5

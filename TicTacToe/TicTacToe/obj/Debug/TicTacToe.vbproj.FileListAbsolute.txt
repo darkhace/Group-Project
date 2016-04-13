@@ -18,6 +18,18 @@ C:\Users\Sean\Documents\Visual Studio 2013\Projects\TicTacToe\TicTacToe\bin\Debu
 C:\Users\Sean\Documents\Visual Studio 2013\Projects\TicTacToe\TicTacToe\obj\Debug\TicTacToe.exe
 C:\Users\Sean\Documents\Visual Studio 2013\Projects\TicTacToe\TicTacToe\obj\Debug\TicTacToe.xml
 C:\Users\Sean\Documents\Visual Studio 2013\Projects\TicTacToe\TicTacToe\obj\Debug\TicTacToe.pdb
+<<<<<<< HEAD
+C:\Users\Sean\Documents\GitHub\Group-Project\Group-Project\TicTacToe\TicTacToe\bin\Debug\TicTacToe.exe.config
+C:\Users\Sean\Documents\GitHub\Group-Project\Group-Project\TicTacToe\TicTacToe\obj\Debug\TicTacToe.exe
+C:\Users\Sean\Documents\GitHub\Group-Project\Group-Project\TicTacToe\TicTacToe\obj\Debug\TicTacToe.xml
+C:\Users\Sean\Documents\GitHub\Group-Project\Group-Project\TicTacToe\TicTacToe\obj\Debug\TicTacToe.pdb
+C:\Users\Sean\Documents\GitHub\Group-Project\Group-Project\TicTacToe\TicTacToe\obj\Debug\TicTacToe.board.resources
+C:\Users\Sean\Documents\GitHub\Group-Project\Group-Project\TicTacToe\TicTacToe\obj\Debug\TicTacToe.gameMenu.resources
+C:\Users\Sean\Documents\GitHub\Group-Project\Group-Project\TicTacToe\TicTacToe\obj\Debug\TicTacToe.Resources.resources
+C:\Users\Sean\Documents\GitHub\Group-Project\Group-Project\TicTacToe\TicTacToe\obj\Debug\TicTacToe.setupMenu.resources
+C:\Users\Sean\Documents\GitHub\Group-Project\Group-Project\TicTacToe\TicTacToe\obj\Debug\TicTacToe.board.dje-NE.resources
+C:\Users\Sean\Documents\GitHub\Group-Project\Group-Project\TicTacToe\TicTacToe\obj\Debug\TicTacToe.vbproj.GenerateResource.Cache
+=======
 C:\Users\valentin\Documents\GitHub\Group-Project\TicTacToe\TicTacToe\bin\Debug\TicTacToe.exe.config
 C:\Users\valentin\Documents\GitHub\Group-Project\TicTacToe\TicTacToe\obj\Debug\TicTacToe.exe
 C:\Users\valentin\Documents\GitHub\Group-Project\TicTacToe\TicTacToe\obj\Debug\TicTacToe.xml
@@ -33,3 +45,4 @@ C:\Users\valentin\Documents\GitHub\Group-Project\TicTacToe\TicTacToe\obj\Debug\T
 C:\Users\valentin\Documents\GitHub\Group-Project\TicTacToe\TicTacToe\obj\Debug\TicTacToe.board.dje-NE.resources
 C:\Users\valentin\Documents\GitHub\Group-Project\TicTacToe\TicTacToe\obj\Debug\TicTacToe.vbproj.GenerateResource.Cache
 C:\Users\valentin\Documents\GitHub\Group-Project\TicTacToe\TicTacToe\obj\Debug\dje-NE\TicTacToe.resources.dll
+>>>>>>> refs/remotes/origin/master

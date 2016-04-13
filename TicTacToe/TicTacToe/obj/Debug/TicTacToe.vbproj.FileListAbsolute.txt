@@ -46,3 +46,7 @@ C:\Users\valentin\Documents\GitHub\Group-Project\TicTacToe\TicTacToe\obj\Debug\T
 C:\Users\valentin\Documents\GitHub\Group-Project\TicTacToe\TicTacToe\obj\Debug\TicTacToe.vbproj.GenerateResource.Cache
 C:\Users\valentin\Documents\GitHub\Group-Project\TicTacToe\TicTacToe\obj\Debug\dje-NE\TicTacToe.resources.dll
 >>>>>>> refs/remotes/origin/master
+C:\Users\Alfredog\Desktop\Project for 34\Group-Project\TicTacToe\TicTacToe\bin\Debug\TicTacToe.exe.config
+C:\Users\Alfredog\Desktop\Project for 34\Group-Project\TicTacToe\TicTacToe\obj\Debug\TicTacToe.exe
+C:\Users\Alfredog\Desktop\Project for 34\Group-Project\TicTacToe\TicTacToe\obj\Debug\TicTacToe.xml
+C:\Users\Alfredog\Desktop\Project for 34\Group-Project\TicTacToe\TicTacToe\obj\Debug\TicTacToe.pdb

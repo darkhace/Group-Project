@@ -207,8 +207,6 @@
     End Sub
     Public Sub setStone(ByVal color As String, ByVal color2 As String)
         'Place the stone on the board
-        board.player1stone.FillColor = color
-        board.player2stone.FillColor = color2
     End Sub
     Public Sub exitButton()
         'Exit the board 

@@ -121,7 +121,7 @@
                 If x = 1 Or x = 2 Or x = 4 Or x = 5 Then
                     For y As Integer = 0 To 5
                         If board(x, y) = playerTurn Then
-                            If board(x, y + 1) = playTurn And board(x, y + 2) = 0 Then
+                            If board(x, y + 1) = playerTurn And board(x, y + 2) = 0 Then
                                 board(x, y + 2) = vaderTurn
                                 loopFlag = True
                                 Exit For

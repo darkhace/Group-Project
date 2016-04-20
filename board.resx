@@ -1,0 +1,1270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ShapeContainer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ShapeContainer1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <assembly alias="Microsoft.VisualBasic.PowerPacks.Vs" name="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="player2stone.FillStyle" type="Microsoft.VisualBasic.PowerPacks.FillStyle, Microsoft.VisualBasic.PowerPacks.Vs">
+    <value>Solid</value>
+  </data>
+  <data name="player2stone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>832, 321</value>
+  </data>
+  <data name="player2stone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 75</value>
+  </data>
+  <data name="player1stone.FillStyle" type="Microsoft.VisualBasic.PowerPacks.FillStyle, Microsoft.VisualBasic.PowerPacks.Vs">
+    <value>Solid</value>
+  </data>
+  <data name="player1stone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>838, 99</value>
+  </data>
+  <data name="player1stone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 75</value>
+  </data>
+  <data name="OvalShape36.Location" type="System.Drawing.Point, System.Drawing">
+    <value>597, 568</value>
+  </data>
+  <data name="OvalShape36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 75</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="OvalShape36.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="OvalShape35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>497, 570</value>
+  </data>
+  <data name="OvalShape35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 75</value>
+  </data>
+  <data name="OvalShape35.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="OvalShape34.Location" type="System.Drawing.Point, System.Drawing">
+    <value>400, 570</value>
+  </data>
+  <data name="OvalShape34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 75</value>
+  </data>
+  <data name="OvalShape34.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="OvalShape33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>299, 571</value>
+  </data>
+  <data name="OvalShape33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 75</value>
+  </data>
+  <data name="OvalShape33.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="OvalShape32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>198, 567</value>
+  </data>
+  <data name="OvalShape32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 75</value>
+  </data>
+  <data name="OvalShape32.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="OvalShape31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 569</value>
+  </data>
+  <data name="OvalShape31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 75</value>
+  </data>
+  <data name="OvalShape31.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="OvalShape30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>598, 467</value>
+  </data>
+  <data name="OvalShape30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 75</value>
+  </data>
+  <data name="OvalShape30.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="OvalShape29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>498, 469</value>
+  </data>
+  <data name="OvalShape29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 75</value>
+  </data>
+  <data name="OvalShape29.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="OvalShape28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>401, 469</value>
+  </data>
+  <data name="OvalShape28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 75</value>
+  </data>
+  <data name="OvalShape28.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="OvalShape27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 470</value>
+  </data>
+  <data name="OvalShape27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 75</value>
+  </data>
+  <data name="OvalShape27.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="OvalShape26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 466</value>
+  </data>
+  <data name="OvalShape26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 75</value>
+  </data>
+  <data name="OvalShape26.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="OvalShape25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 468</value>
+  </data>
+  <data name="OvalShape25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 75</value>
+  </data>
+  <data name="OvalShape25.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="OvalShape24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>599, 364</value>
+  </data>
+  <data name="OvalShape24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 75</value>
+  </data>
+  <data name="OvalShape24.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="OvalShape23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>499, 366</value>
+  </data>
+  <data name="OvalShape23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 75</value>
+  </data>
+  <data name="OvalShape23.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="OvalShape22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>402, 366</value>
+  </data>
+  <data name="OvalShape22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 75</value>
+  </data>
+  <data name="OvalShape22.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="OvalShape21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>301, 367</value>
+  </data>
+  <data name="OvalShape21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 75</value>
+  </data>
+  <data name="OvalShape21.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="OvalShape20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>200, 363</value>
+  </data>
+  <data name="OvalShape20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 75</value>
+  </data>
+  <data name="OvalShape20.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="OvalShape19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 365</value>
+  </data>
+  <data name="OvalShape19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 75</value>
+  </data>
+  <data name="OvalShape19.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="OvalShape18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>596, 268</value>
+  </data>
+  <data name="OvalShape18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 75</value>
+  </data>
+  <data name="OvalShape18.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="OvalShape17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>496, 270</value>
+  </data>
+  <data name="OvalShape17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 75</value>
+  </data>
+  <data name="OvalShape17.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="OvalShape16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>399, 270</value>
+  </data>
+  <data name="OvalShape16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 75</value>
+  </data>
+  <data name="OvalShape16.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="OvalShape15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>298, 271</value>
+  </data>
+  <data name="OvalShape15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 75</value>
+  </data>
+  <data name="OvalShape15.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="OvalShape14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 267</value>
+  </data>
+  <data name="OvalShape14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 75</value>
+  </data>
+  <data name="OvalShape14.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="OvalShape13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 269</value>
+  </data>
+  <data name="OvalShape13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 75</value>
+  </data>
+  <data name="OvalShape13.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="OvalShape12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>597, 170</value>
+  </data>
+  <data name="OvalShape12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 75</value>
+  </data>
+  <data name="OvalShape12.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="OvalShape11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>497, 172</value>
+  </data>
+  <data name="OvalShape11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 75</value>
+  </data>
+  <data name="OvalShape11.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="OvalShape10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>400, 172</value>
+  </data>
+  <data name="OvalShape10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 75</value>
+  </data>
+  <data name="OvalShape10.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="OvalShape9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>299, 173</value>
+  </data>
+  <data name="OvalShape9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 75</value>
+  </data>
+  <data name="OvalShape9.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="OvalShape8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>198, 169</value>
+  </data>
+  <data name="OvalShape8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 75</value>
+  </data>
+  <data name="OvalShape8.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="OvalShape7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 171</value>
+  </data>
+  <data name="OvalShape7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 75</value>
+  </data>
+  <data name="OvalShape7.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="OvalShape6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>600, 70</value>
+  </data>
+  <data name="OvalShape6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 75</value>
+  </data>
+  <data name="OvalShape6.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="OvalShape5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>500, 72</value>
+  </data>
+  <data name="OvalShape5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 75</value>
+  </data>
+  <data name="OvalShape5.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="OvalShape4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>403, 72</value>
+  </data>
+  <data name="OvalShape4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 75</value>
+  </data>
+  <data name="OvalShape4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="OvalShape3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>302, 73</value>
+  </data>
+  <data name="OvalShape3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 75</value>
+  </data>
+  <data name="OvalShape3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="OvalShape2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>201, 69</value>
+  </data>
+  <data name="OvalShape2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 75</value>
+  </data>
+  <data name="OvalShape2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="OvalShape1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 71</value>
+  </data>
+  <data name="OvalShape1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 75</value>
+  </data>
+  <data name="OvalShape1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="RectangleShape19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 357</value>
+  </data>
+  <data name="RectangleShape19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="RectangleShape31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 557</value>
+  </data>
+  <data name="RectangleShape31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="RectangleShape25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 457</value>
+  </data>
+  <data name="RectangleShape25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="RectangleShape20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 357</value>
+  </data>
+  <data name="RectangleShape20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="RectangleShape21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 357</value>
+  </data>
+  <data name="RectangleShape21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="RectangleShape22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>389, 357</value>
+  </data>
+  <data name="RectangleShape22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="RectangleShape23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>489, 357</value>
+  </data>
+  <data name="RectangleShape23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="RectangleShape24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>589, 357</value>
+  </data>
+  <data name="RectangleShape24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="RectangleShape30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>589, 457</value>
+  </data>
+  <data name="RectangleShape30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="RectangleShape29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>489, 457</value>
+  </data>
+  <data name="RectangleShape29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="RectangleShape28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>389, 457</value>
+  </data>
+  <data name="RectangleShape28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="RectangleShape27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 457</value>
+  </data>
+  <data name="RectangleShape27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="RectangleShape26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 457</value>
+  </data>
+  <data name="RectangleShape26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="RectangleShape36.Location" type="System.Drawing.Point, System.Drawing">
+    <value>589, 557</value>
+  </data>
+  <data name="RectangleShape36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="RectangleShape35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>489, 557</value>
+  </data>
+  <data name="RectangleShape35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="RectangleShape34.Location" type="System.Drawing.Point, System.Drawing">
+    <value>389, 557</value>
+  </data>
+  <data name="RectangleShape34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="RectangleShape33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 557</value>
+  </data>
+  <data name="RectangleShape33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="RectangleShape32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 557</value>
+  </data>
+  <data name="RectangleShape32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="RectangleShape13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 257</value>
+  </data>
+  <data name="RectangleShape13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="RectangleShape14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 257</value>
+  </data>
+  <data name="RectangleShape14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="RectangleShape15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 257</value>
+  </data>
+  <data name="RectangleShape15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="RectangleShape16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>389, 257</value>
+  </data>
+  <data name="RectangleShape16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="RectangleShape17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>489, 257</value>
+  </data>
+  <data name="RectangleShape17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="RectangleShape18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>589, 257</value>
+  </data>
+  <data name="RectangleShape18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="RectangleShape7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 157</value>
+  </data>
+  <data name="RectangleShape7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="RectangleShape8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 157</value>
+  </data>
+  <data name="RectangleShape8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="RectangleShape9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 157</value>
+  </data>
+  <data name="RectangleShape9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="RectangleShape10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>389, 157</value>
+  </data>
+  <data name="RectangleShape10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="RectangleShape11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>489, 157</value>
+  </data>
+  <data name="RectangleShape11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="RectangleShape12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>589, 157</value>
+  </data>
+  <data name="RectangleShape12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="RectangleShape6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>589, 57</value>
+  </data>
+  <data name="RectangleShape6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="RectangleShape5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>489, 57</value>
+  </data>
+  <data name="RectangleShape5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="RectangleShape4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>389, 57</value>
+  </data>
+  <data name="RectangleShape4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="RectangleShape3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 57</value>
+  </data>
+  <data name="RectangleShape3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="RectangleShape2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 57</value>
+  </data>
+  <data name="RectangleShape2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="OvalShape37.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 117</value>
+  </data>
+  <data name="OvalShape37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="RectangleShape1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 57</value>
+  </data>
+  <data name="RectangleShape1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="ShapeContainer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>979, 765</value>
+  </data>
+  <data name="ShapeContainer1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ShapeContainer1.Name" xml:space="preserve">
+    <value>ShapeContainer1</value>
+  </data>
+  <data name="&gt;&gt;ShapeContainer1.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.ShapeContainer, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;ShapeContainer1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ShapeContainer1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="backBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="backBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>752, 57</value>
+  </data>
+  <data name="backBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 37</value>
+  </data>
+  <data name="backBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="backBtn.Text" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="&gt;&gt;backBtn.Name" xml:space="preserve">
+    <value>backBtn</value>
+  </data>
+  <data name="&gt;&gt;backBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;backBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;backBtn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="player1Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="player1Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>749, 117</value>
+  </data>
+  <data name="player1Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 17</value>
+  </data>
+  <data name="player1Label.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="player1Label.Text" xml:space="preserve">
+    <value>player1</value>
+  </data>
+  <data name="&gt;&gt;player1Label.Name" xml:space="preserve">
+    <value>player1Label</value>
+  </data>
+  <data name="&gt;&gt;player1Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;player1Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;player1Label.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="player2Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="player2Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>745, 341</value>
+  </data>
+  <data name="player2Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 17</value>
+  </data>
+  <data name="player2Label.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="player2Label.Text" xml:space="preserve">
+    <value>player 2</value>
+  </data>
+  <data name="&gt;&gt;player2Label.Name" xml:space="preserve">
+    <value>player2Label</value>
+  </data>
+  <data name="&gt;&gt;player2Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;player2Label.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;player2Label.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>120, 120</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>979, 765</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>board</value>
+  </data>
+  <data name="&gt;&gt;player2stone.Name" xml:space="preserve">
+    <value>player2stone</value>
+  </data>
+  <data name="&gt;&gt;player2stone.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.OvalShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;player1stone.Name" xml:space="preserve">
+    <value>player1stone</value>
+  </data>
+  <data name="&gt;&gt;player1stone.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.OvalShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;OvalShape36.Name" xml:space="preserve">
+    <value>OvalShape36</value>
+  </data>
+  <data name="&gt;&gt;OvalShape36.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.OvalShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;OvalShape35.Name" xml:space="preserve">
+    <value>OvalShape35</value>
+  </data>
+  <data name="&gt;&gt;OvalShape35.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.OvalShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;OvalShape34.Name" xml:space="preserve">
+    <value>OvalShape34</value>
+  </data>
+  <data name="&gt;&gt;OvalShape34.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.OvalShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;OvalShape33.Name" xml:space="preserve">
+    <value>OvalShape33</value>
+  </data>
+  <data name="&gt;&gt;OvalShape33.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.OvalShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;OvalShape32.Name" xml:space="preserve">
+    <value>OvalShape32</value>
+  </data>
+  <data name="&gt;&gt;OvalShape32.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.OvalShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;OvalShape31.Name" xml:space="preserve">
+    <value>OvalShape31</value>
+  </data>
+  <data name="&gt;&gt;OvalShape31.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.OvalShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;OvalShape30.Name" xml:space="preserve">
+    <value>OvalShape30</value>
+  </data>
+  <data name="&gt;&gt;OvalShape30.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.OvalShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;OvalShape29.Name" xml:space="preserve">
+    <value>OvalShape29</value>
+  </data>
+  <data name="&gt;&gt;OvalShape29.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.OvalShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;OvalShape28.Name" xml:space="preserve">
+    <value>OvalShape28</value>
+  </data>
+  <data name="&gt;&gt;OvalShape28.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.OvalShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;OvalShape27.Name" xml:space="preserve">
+    <value>OvalShape27</value>
+  </data>
+  <data name="&gt;&gt;OvalShape27.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.OvalShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;OvalShape26.Name" xml:space="preserve">
+    <value>OvalShape26</value>
+  </data>
+  <data name="&gt;&gt;OvalShape26.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.OvalShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;OvalShape25.Name" xml:space="preserve">
+    <value>OvalShape25</value>
+  </data>
+  <data name="&gt;&gt;OvalShape25.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.OvalShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;OvalShape24.Name" xml:space="preserve">
+    <value>OvalShape24</value>
+  </data>
+  <data name="&gt;&gt;OvalShape24.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.OvalShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;OvalShape23.Name" xml:space="preserve">
+    <value>OvalShape23</value>
+  </data>
+  <data name="&gt;&gt;OvalShape23.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.OvalShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;OvalShape22.Name" xml:space="preserve">
+    <value>OvalShape22</value>
+  </data>
+  <data name="&gt;&gt;OvalShape22.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.OvalShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;OvalShape21.Name" xml:space="preserve">
+    <value>OvalShape21</value>
+  </data>
+  <data name="&gt;&gt;OvalShape21.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.OvalShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;OvalShape20.Name" xml:space="preserve">
+    <value>OvalShape20</value>
+  </data>
+  <data name="&gt;&gt;OvalShape20.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.OvalShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;OvalShape19.Name" xml:space="preserve">
+    <value>OvalShape19</value>
+  </data>
+  <data name="&gt;&gt;OvalShape19.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.OvalShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;OvalShape18.Name" xml:space="preserve">
+    <value>OvalShape18</value>
+  </data>
+  <data name="&gt;&gt;OvalShape18.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.OvalShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;OvalShape17.Name" xml:space="preserve">
+    <value>OvalShape17</value>
+  </data>
+  <data name="&gt;&gt;OvalShape17.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.OvalShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;OvalShape16.Name" xml:space="preserve">
+    <value>OvalShape16</value>
+  </data>
+  <data name="&gt;&gt;OvalShape16.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.OvalShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;OvalShape15.Name" xml:space="preserve">
+    <value>OvalShape15</value>
+  </data>
+  <data name="&gt;&gt;OvalShape15.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.OvalShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;OvalShape14.Name" xml:space="preserve">
+    <value>OvalShape14</value>
+  </data>
+  <data name="&gt;&gt;OvalShape14.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.OvalShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;OvalShape13.Name" xml:space="preserve">
+    <value>OvalShape13</value>
+  </data>
+  <data name="&gt;&gt;OvalShape13.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.OvalShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;OvalShape12.Name" xml:space="preserve">
+    <value>OvalShape12</value>
+  </data>
+  <data name="&gt;&gt;OvalShape12.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.OvalShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;OvalShape11.Name" xml:space="preserve">
+    <value>OvalShape11</value>
+  </data>
+  <data name="&gt;&gt;OvalShape11.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.OvalShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;OvalShape10.Name" xml:space="preserve">
+    <value>OvalShape10</value>
+  </data>
+  <data name="&gt;&gt;OvalShape10.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.OvalShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;OvalShape9.Name" xml:space="preserve">
+    <value>OvalShape9</value>
+  </data>
+  <data name="&gt;&gt;OvalShape9.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.OvalShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;OvalShape8.Name" xml:space="preserve">
+    <value>OvalShape8</value>
+  </data>
+  <data name="&gt;&gt;OvalShape8.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.OvalShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;OvalShape7.Name" xml:space="preserve">
+    <value>OvalShape7</value>
+  </data>
+  <data name="&gt;&gt;OvalShape7.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.OvalShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;OvalShape6.Name" xml:space="preserve">
+    <value>OvalShape6</value>
+  </data>
+  <data name="&gt;&gt;OvalShape6.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.OvalShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;OvalShape5.Name" xml:space="preserve">
+    <value>OvalShape5</value>
+  </data>
+  <data name="&gt;&gt;OvalShape5.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.OvalShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;OvalShape4.Name" xml:space="preserve">
+    <value>OvalShape4</value>
+  </data>
+  <data name="&gt;&gt;OvalShape4.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.OvalShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;OvalShape3.Name" xml:space="preserve">
+    <value>OvalShape3</value>
+  </data>
+  <data name="&gt;&gt;OvalShape3.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.OvalShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;OvalShape2.Name" xml:space="preserve">
+    <value>OvalShape2</value>
+  </data>
+  <data name="&gt;&gt;OvalShape2.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.OvalShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;OvalShape1.Name" xml:space="preserve">
+    <value>OvalShape1</value>
+  </data>
+  <data name="&gt;&gt;OvalShape1.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.OvalShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape19.Name" xml:space="preserve">
+    <value>RectangleShape19</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape19.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.RectangleShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape31.Name" xml:space="preserve">
+    <value>RectangleShape31</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape31.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.RectangleShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape25.Name" xml:space="preserve">
+    <value>RectangleShape25</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape25.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.RectangleShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape20.Name" xml:space="preserve">
+    <value>RectangleShape20</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape20.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.RectangleShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape21.Name" xml:space="preserve">
+    <value>RectangleShape21</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape21.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.RectangleShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape22.Name" xml:space="preserve">
+    <value>RectangleShape22</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape22.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.RectangleShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape23.Name" xml:space="preserve">
+    <value>RectangleShape23</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape23.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.RectangleShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape24.Name" xml:space="preserve">
+    <value>RectangleShape24</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape24.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.RectangleShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape30.Name" xml:space="preserve">
+    <value>RectangleShape30</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape30.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.RectangleShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape29.Name" xml:space="preserve">
+    <value>RectangleShape29</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape29.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.RectangleShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape28.Name" xml:space="preserve">
+    <value>RectangleShape28</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape28.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.RectangleShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape27.Name" xml:space="preserve">
+    <value>RectangleShape27</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape27.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.RectangleShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape26.Name" xml:space="preserve">
+    <value>RectangleShape26</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape26.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.RectangleShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape36.Name" xml:space="preserve">
+    <value>RectangleShape36</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape36.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.RectangleShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape35.Name" xml:space="preserve">
+    <value>RectangleShape35</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape35.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.RectangleShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape34.Name" xml:space="preserve">
+    <value>RectangleShape34</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape34.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.RectangleShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape33.Name" xml:space="preserve">
+    <value>RectangleShape33</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape33.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.RectangleShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape32.Name" xml:space="preserve">
+    <value>RectangleShape32</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape32.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.RectangleShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape13.Name" xml:space="preserve">
+    <value>RectangleShape13</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape13.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.RectangleShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape14.Name" xml:space="preserve">
+    <value>RectangleShape14</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape14.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.RectangleShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape15.Name" xml:space="preserve">
+    <value>RectangleShape15</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape15.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.RectangleShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape16.Name" xml:space="preserve">
+    <value>RectangleShape16</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape16.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.RectangleShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape17.Name" xml:space="preserve">
+    <value>RectangleShape17</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape17.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.RectangleShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape18.Name" xml:space="preserve">
+    <value>RectangleShape18</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape18.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.RectangleShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape7.Name" xml:space="preserve">
+    <value>RectangleShape7</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape7.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.RectangleShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape8.Name" xml:space="preserve">
+    <value>RectangleShape8</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape8.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.RectangleShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape9.Name" xml:space="preserve">
+    <value>RectangleShape9</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape9.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.RectangleShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape10.Name" xml:space="preserve">
+    <value>RectangleShape10</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape10.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.RectangleShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape11.Name" xml:space="preserve">
+    <value>RectangleShape11</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape11.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.RectangleShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape12.Name" xml:space="preserve">
+    <value>RectangleShape12</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape12.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.RectangleShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape6.Name" xml:space="preserve">
+    <value>RectangleShape6</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape6.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.RectangleShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape5.Name" xml:space="preserve">
+    <value>RectangleShape5</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape5.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.RectangleShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape4.Name" xml:space="preserve">
+    <value>RectangleShape4</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape4.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.RectangleShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape3.Name" xml:space="preserve">
+    <value>RectangleShape3</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape3.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.RectangleShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape2.Name" xml:space="preserve">
+    <value>RectangleShape2</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape2.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.RectangleShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;OvalShape37.Name" xml:space="preserve">
+    <value>OvalShape37</value>
+  </data>
+  <data name="&gt;&gt;OvalShape37.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.OvalShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape1.Name" xml:space="preserve">
+    <value>RectangleShape1</value>
+  </data>
+  <data name="&gt;&gt;RectangleShape1.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.RectangleShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>board</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

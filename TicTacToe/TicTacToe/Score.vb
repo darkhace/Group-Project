@@ -1,12 +1,12 @@
-ublic Class Score
+Public Class Score
     Private name As player = New player()
     Private wins As Integer = 0
     Private loss As Integer = 0
     Private tie As Integer = 0
     Private opponent As String
-    
 
-    
+
+
     'Holsd the button to view
     Private Sub Btn_View_Click(sender As Object, e As EventArgs) Handles Btn_View.Click
         Const intMax As Integer = 3
